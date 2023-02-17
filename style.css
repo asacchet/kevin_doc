@@ -1,0 +1,61 @@
+body {
+  background-color: rgba(226, 67, 43, 1);
+}
+
+div {
+  background: HEX: E3432B;
+  color: rgba(226, 67, 43, 1);
+  padding: 25px;
+}
+
+@font-face {
+    font-family: 'druk_wide_boldbold';
+    src: url('druk-wide-bold.woff2') format('woff2'),
+         url('druk-wide-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+  font-family: 'Helvetica';
+  color: rgba(230, 230, 203, 1);
+  text-shadow: 0.5px 0.5px 2px #fff, 0.5px 0.5px 1px #ccc;
+  font-size:60px;
+  text-align:center;
+}
+
+image {
+  background-image: url('https://drive.google.com/file/d/10S0viz43G-DqnbgHb3nUrD2_Bdk30X4g/view?usp=share_link');
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+.title {
+background-image: url("https://drive.google.com/drive/folders/1M0l_TaT1PBOMbXnr700XVjXZqZy6o075")
+}
+
+/* Styling the button */
+.button {
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+        height: 50px;
+        width: 200px;
+        color: rgba(50, 17, 11, 1);
+        font-size: 1.5em;
+        text-shadow: 0.5px 0.5px 2px #fff, 0.5px 0.5px 1px
+        box-shadow: 0;
+    }
+  #button1{
+    width: 300px;
+    height: 40px;
+}
+#button2{
+    width: 300px;
+    height: 40px;
+}
+#container{
+    text-align: center;
+}
